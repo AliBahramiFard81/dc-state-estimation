@@ -49,3 +49,12 @@ DC State Estimation is a technique used to calculate the electrical states (e.g.
 -	**accuracy_mw**: Measurement accuracy in MW for the estimation process.
 
 -	**sigma**: Constant value for adjusting accuracy.
+```matlab
+line_data = [1, 2, 0, 0.1;
+             1, 3, 0, 0.071;
+             2, 3, 0, 0.25;];
+slack_bus = 3;
+s_base_mw = 100;
+accuracy_mw = 3;
+sigma = 3;
+```
