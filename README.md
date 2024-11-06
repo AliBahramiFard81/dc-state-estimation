@@ -35,3 +35,17 @@ DC State Estimation is a technique used to calculate the electrical states (e.g.
 3. Run the script:
    ```matlab
    main
+## Inputs
+-	**line_data** : A matrix containing line parameters:
+
+	*	**Column 1**: From bus
+	*	**Column 2**: To bus
+	*	**Column 3**: Resistance (R) in per unit (PU)
+	*	**Column 4**: Reactance (X) in per unit (PU)
+-	**slack_bus**: Specifies the bus number that acts as the slack bus for reference.
+
+-	**s_base_mw**: Base power value in megawatts (MW).
+
+-	**accuracy_mw**: Measurement accuracy in MW for the estimation process.
+
+-	**sigma**: Constant value for adjusting accuracy.
