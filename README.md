@@ -1,6 +1,6 @@
 # DC State Estimation in Power Systems
 
-This MATLAB code is developed for performing DC state estimation in power systems, designed and authored by **Ali Bahrami Fard**. The purpose of this code is to estimate the state of a power system network based on input parameters such as bus and line data, slack bus, and power base values.
+This MATLAB code is developed for performing DC state estimation in power systems. The purpose of this code is to estimate the state of a power system network based on input parameters such as bus and line data, slack bus, and power base values.
 
 ## Table of Contents
 - [Overview](#overview)
