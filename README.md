@@ -63,3 +63,5 @@ The script outputs the estimated states of the power network, displaying voltage
 ## Notes
 -	**Input Format**: Ensure that input data for line and bus parameters are provided exactly as shown in the example. The order of data and direction (e.g., P12 vs. P21) should match the expected input format.
 -	**Accuracy Configuration**: Adjust the accuracy_mw and sigma values as needed for different precision requirements.
+## License
+This project is licensed under the [MIT] License
