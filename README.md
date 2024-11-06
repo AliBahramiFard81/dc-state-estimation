@@ -10,6 +10,7 @@ This MATLAB code is developed for performing DC state estimation in power system
 - [Inputs](#inputs)
 - [Output](#output)
 - [Notes](#notes)
+- [Authors](#authors)
 - [License](#license)
 
 ## Overview
@@ -63,5 +64,7 @@ The script outputs the estimated states of the power network, displaying voltage
 ## Notes
 -	**Input Format**: Ensure that input data for line and bus parameters are provided exactly as shown in the example. The order of data and direction (e.g., P12 vs. P21) should match the expected input format.
 -	**Accuracy Configuration**: Adjust the accuracy_mw and sigma values as needed for different precision requirements.
+## Authors
+-	[Ali Bahrami Fard](https://github.com/AliBahramiFard81)
 ## License
 This project is licensed under the [MIT] License
